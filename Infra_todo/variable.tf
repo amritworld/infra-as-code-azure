@@ -21,3 +21,13 @@ variable "subnet-name" {
           address_prefixes = list(string)
      }))
 }
+
+# variable "nsg_name" {
+#   description = "The name of the Network Security Group"
+#   type        = list(object({
+#     name                = string
+#     location            = string
+#     resource_group_name = string
+#   }))
+  
+# }
